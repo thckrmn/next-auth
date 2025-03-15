@@ -19,6 +19,7 @@ datasource db {
   email String @unique
   password String
   image String?
+  role String @default("member")
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
