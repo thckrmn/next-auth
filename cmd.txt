@@ -1,0 +1,11 @@
+npm install prisma
+npm install @prisma/client
+npx prisma init
+
+.env myuser mypassword 
+
+schema
+
+npm i bcrypt
+npm i @auth/prisma-adapter
+npm i next-auth
